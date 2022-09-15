@@ -34,7 +34,7 @@ int main(){
         printf("%d ", *(ptr + i));
     }
 
-    return 0;
+    return 0; 
 }
 
 // free() is used to release the memory space allocated dynamically to prevent memory leak
