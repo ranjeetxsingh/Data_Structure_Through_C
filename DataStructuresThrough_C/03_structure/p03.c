@@ -7,7 +7,7 @@ program to understand array of structures
 struct student {
     char name[20];
     int rollno;
-    float marks;
+    float marks; 
 };
 
 int main(){
