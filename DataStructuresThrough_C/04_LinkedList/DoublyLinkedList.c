@@ -48,7 +48,7 @@ int main() {
 			break;
 		case 4:
 			printf("Enter the element to be inserted: ");
-			scanf("%d", data);
+			scanf("%d", &data);
 			start = addatbeg(start, data);
 			break;
 		case 5:
@@ -109,7 +109,7 @@ struct node *addatbeg(struct node *start, int data) {
 	tmp->next = start;
 	start->prev = tmp;
 	start = tmp;
-	return start;
+	return tmp;
 }
 
 struct node *addtoempty(struct node *start, int data) {
