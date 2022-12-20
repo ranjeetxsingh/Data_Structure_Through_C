@@ -34,6 +34,7 @@ int main() {
 		printf("Enter your choice: ");
 		scanf("%d", &choice);
 
+
 		switch (choice) {
 		case 1:
 			start = create_list(start);
@@ -75,13 +76,6 @@ int main() {
 			scanf("%d", &data);
 			start = del(start, data);
 			break;
-		case 9:
-			start = reverse(start);
-			break;
-		case 10:
-			exit(1);
-		default:
-			printf("Wrong choice\n");
 		}
 	}
 }
